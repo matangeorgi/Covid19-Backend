@@ -5,7 +5,7 @@ from Registration.models import CitizenDetails
 class CitizenSerializer(serializers.ModelSerializer):
     class Meta:
         model = CitizenDetails
-        fields = ('CitizenId', 
+        fields = (
         'CitizenFirstName',
         'CitizenLastName',
         'CitizenDOB',

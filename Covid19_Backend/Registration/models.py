@@ -13,7 +13,7 @@ class CitizenDetails(models.Model):
     CitizenCellular = models.IntegerField()
     CitizenLandLine = models.CharField(max_length=50)
     CitizenInfected = models.BooleanField()
-    CitizenConditions = models.CharField(max_length=100)
+    CitizenConditions = models.CharField(max_length=100, blank=True)
 
 
     

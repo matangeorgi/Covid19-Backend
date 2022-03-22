@@ -2,5 +2,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('',views.getData)
+    path('summary/getData/',views.getDataFilter),
+    path('summary/getData',views.getData),
+    path('register/',views.addData),
+    path('summary/exportExcel',views.ExportExcel)
 ]
