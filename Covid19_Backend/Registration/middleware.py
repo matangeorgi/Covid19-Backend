@@ -4,7 +4,6 @@ from django.db import models
 from datetime import datetime
 
 def checkInput(data):
-    print(data)
     message = ""
     if data['CitizenFirstName'] == "":
        message = "First name field is empty."
