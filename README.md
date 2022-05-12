@@ -5,6 +5,7 @@ This is the Back end for the project.\
 I have written this backend server using Django.
 
 # How to run:
+### `clone the repo`
 ### `cd Covid19_Backend`
 ### `python manage.py runserver`
 
