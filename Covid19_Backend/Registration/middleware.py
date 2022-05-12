@@ -3,6 +3,7 @@ from django.test import TestCase
 from django.db import models
 from datetime import datetime
 
+
 def checkInput(data):
     message = ""
     if data['CitizenFirstName'] == "":
