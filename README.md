@@ -1,8 +1,8 @@
-# Covid 19 - Ex2 - HAC
-Matan Georgi
-
-This is the Back end for the project.\
-I have written this backend server using Django.
+# Covid19-Backend
+This is the backend side of an academic course which represents\
+Covid19 registration form (for any kind of orginazation),\
+with options of extracting part of the data by Date of birth and city\
+and exporting to excel or displaying it live.
 
 # How to run:
 ### `clone the repo`
@@ -18,3 +18,5 @@ Starting development server at http://127.0.0.1:8000/
 Inside the directory covid19_backend there is a file name settings.py.\
 in this file there is variable called DATABASES, you should change the information\
 in order to sync to your db.
+
+## Written using Django
