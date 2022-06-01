@@ -6,7 +6,6 @@ from datetime import datetime
 
 
 def checkInput(data):
-    print(len(data['CitizenLandLine']))
     message = ""
     if data['CitizenFirstName'] == "":
        message = "First name field is empty."
@@ -35,7 +34,6 @@ def checkInput(data):
 
     elif not data['CitizenLandLine'].strip().isdigit():
        message = "The Land line must contain only digits."
-       print('here')
 
     elif not data['CitizenCellular'].strip().isdigit():
         message = "The Cellular must contain only digits."
