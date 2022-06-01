@@ -9,7 +9,7 @@ class CitizenDetails(models.Model):
     CitizenDOB = models.DateField()
     CitizenAddress = models.CharField(max_length=100)
     CitizenCity = models.CharField(max_length=50)
-    CitizenZipCode = models.IntegerField()
+    CitizenZipCode = models.IntegerField(null=True, blank=True)
     CitizenCellular = models.IntegerField()
     CitizenLandLine = models.CharField(max_length=50)
     CitizenInfected = models.BooleanField()
